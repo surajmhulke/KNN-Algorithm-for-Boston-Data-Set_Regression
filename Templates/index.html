@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Housing Price Predictor</title>
+</head>
+<body>
+    <h1>Boston Housing Price Predictor</h1>
+    <form action="/predict" method="post">
+        <label for="CRIM">CRIM:</label>
+        <input type="text" name="CRIM" value="0.11069" required><br>
 
+        <label for="ZN">ZN:</label>
+        <input type="text" name="ZN" value="0.00000" required><br>
+
+        <label for="INDUS">INDUS:</label>
+        <input type="text" name="INDUS" value="13.89000" required><br>
+
+        <label for="CHAS">CHAS:</label>
+        <input type="text" name="CHAS" value="1.00000" required><br>
+
+        <label for="NOX">NOX:</label>
+        <input type="text" name="NOX" value="0.55000" required><br>
+
+        <label for="RM">RM:</label>
+        <input type="text" name="RM" value="5.95100" required><br>
+
+        <label for="AGE">AGE:</label>
+        <input type="text" name="AGE" value="93.80000" required><br>
+
+        <label for="DIS">DIS:</label>
+        <input type="text" name="DIS" value="2.88930" required><br>
+
+        <label for="RAD">RAD:</label>
+        <input type="text" name="RAD" value="5.00000" required><br>
+
+        <label for="TAX">TAX:</label>
+        <input type="text" name="TAX" value="276.00000" required><br>
+
+        <label for="PTRATIO">PTRATIO:</label>
+        <input type="text" name="PTRATIO" value="16.40000" required><br>
+
+        <label for="B">B:</label>
+        <input type="text" name="B" value="396.90000" required><br>
+
+        <label for="LSTAT">LSTAT:</label>
+        <input type="text" name="LSTAT" value="17.92000" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
